@@ -18,22 +18,39 @@
 <option value="8D" name="klas">8D</option>
 </select> 
 
+<select name="kies je klas" class = "BOX">
+<option>Kies je klas</option> 
+
+<option value="8B" name="klas">8B</option>
+<option value="8C" name="klas">8C</option>
+<option value="8D" name="klas">8D</option>
+</select> 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<select name="kies je klas" class = "BOX">
 <?php
-
 $klassen = array("8A", "8B", "8C", "8D", "8E", "9A", "9B", "9C", "9D", "9E");
-
 foreach ($klassen as $key => $value) {
-
+    echo "<option value=$value name=$value>$value</option>";
+    // echo $key;
 }
-//nog bezigg aan meester vragen
 ?>
-
+</select> 
 </body>
 </html>
-
-
